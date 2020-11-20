@@ -1,8 +1,8 @@
-*
-{
+* {
     margin: 0;
     box-sizing: border-box;
 }
+
 /* ================================= 
   Base Element Styles
 ==================================== */
@@ -11,14 +11,46 @@
   Base Layout Styles
 ==================================== */
 
-
 /* ---- Heading ---- */
+
+.search-input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input[type="search"] {
+    width: 500px;
+    height: 50px;
+}
+
+input::placeholder {
+    font-size: 20px;
+    padding-left: 5px;
+}
 
 /* ---- Layout Containers ---- */
 
-/* ---- Form---- */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
 
-/* ---- footer---- */
+/* ---- Main---- */
+
+.gallery {
+    width: 95%;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 5px 5px;
+    padding-right: 0;
+}
+
+/* .card {
+    display: flex;
+    flex-direction: column;
+} */
 
 /* ================================= 
   Media Queries 768px
