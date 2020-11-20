@@ -46,10 +46,9 @@ input::placeholder {
     grid-gap: 5px 5px;
 }
 
-/* .card {
-    display: flex;
-    flex-direction: column;
-} */
+.gallery-card img {
+    height: 200px;
+}
 
 /* ================================= 
   Media Queries 768px
