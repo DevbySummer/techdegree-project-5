@@ -40,14 +40,15 @@ input::placeholder {
 
 .gallery {
     width: 95%;
+    margin: 0 auto; /* This centers the grid within the container*/
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 5px 5px;
+    grid-gap: 20px 10px;
 }
 
 .gallery-card img {
-    height: 200px;
+    width: 92%;
 }
 
 /* ================================= 
