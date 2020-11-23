@@ -19,7 +19,7 @@
 }
 
 input[type="search"] {
-    width: 500px;
+    width: 480px;
     height: 50px;
 }
 
@@ -43,7 +43,7 @@ input::placeholder {
     margin: 0 auto; /* This centers the grid within the container*/
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /*code snipped sourced from Guil during Grid course*/
     grid-gap: 20px 10px;
 }
 
