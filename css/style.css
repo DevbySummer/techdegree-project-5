@@ -23,7 +23,7 @@ input[type="search"] {
     height: 50px;
 }
 
-input::placeholder {
+input::placeholder {  
     font-size: 20px;
     padding-left: 5px;
 }
